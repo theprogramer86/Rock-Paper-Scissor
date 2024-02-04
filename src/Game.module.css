@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+    color: #ffffff;
+    padding: 24px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.choiceButton, .replayButton {
+    font-size: 24px;
+    background-color: #208376;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 40px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.choiceButton:hover, .replayButton:hover {
+    border: 3px solid #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
